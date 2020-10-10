@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  Water Tracker
+
+  Created by Banghua Zhao on 10/7/20.
+  
+*/
+
+"After 1 hour" = "After 1 hour";
+"After 2 hours" = "After 2 hours";
+"After 3 hours" = "After 3 hours";
+"Cancel" = "Cancel";
+"Choose the next drink water reminder" = "Choose the next drink water reminder";
+"Daily Goal" = "Daily Goal";
+"Date: New to Old" = "Date: New to Old";
+"Date: Old to New" = "Date: Old to New";
+"Delete" = "Delete";
+"Do you want to watch an advertisement to support this App?" = "Do you want to watch an advertisement to support this App?";
+"Done" = "Done";
+"Drank" = "Drank";
+"Drank Records" = "Drank Records";
+"Drink Water" = "Drink Water";
+"Feedback" = "Feedback";
+"Glasses: High to Low" = "Glasses: High to Low";
+"Glasses: Low to High" = "Glasses: Low to High";
+"Loading the advertisement" = "Loading the advertisement";
+"No Reminder" = "No Reminder";
+"Rate the App" = "Rate the App";
+"Record" = "Record";
+"Reminder" = "Reminder";
+"Search a date" = "Search a date";
+"See All" = "See All";
+"Settings" = "Settings";
+"Share the App" = "Share the App";
+"Sort By" = "Sort By";
+"Support the App" = "Support the App";
+"Support this App" = "Support this App";
+"Thanks for Your Support!" = "Thanks for Your Support!";
+"Time to drink water" = "Time to drink water";
+"Water" = "Water";
+"Water Tracker" = "Water Tracker";
+"We will constantly optimize and maintain our App and make sure users have the best experience." = "We will constantly optimize and maintain our App and make sure users have the best experience.";
+"Yes" = "Yes";
+"glasses" = "glasses";

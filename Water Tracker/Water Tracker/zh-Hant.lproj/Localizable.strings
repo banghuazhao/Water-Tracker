@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  Water Tracker
+
+  Created by Banghua Zhao on 10/7/20.
+  
+*/
+
+"After 1 hour" = "1小時後";
+"After 2 hours" = "2小時後";
+"After 3 hours" = "3小時後";
+"Cancel" = "取消";
+"Choose the next drink water reminder" = "選擇下一個喝水提醒";
+"Daily Goal" = "每日目標";
+"Date: New to Old" = "日期: 由近到遠";
+"Date: Old to New" = "日期: 由遠到近";
+"Delete" = "刪除";
+"Do you want to watch an advertisement to support this App?" = "你想通過看一支廣告支持我們的App嗎?";
+"Done" = "完成";
+"Drank" = "已喝了";
+"Drank Records" = "喝水記錄";
+"Drink Water" = "喝水";
+"Feedback" = "反饋";
+"Glasses: High to Low" = "喝水杯數: 由高到低";
+"Glasses: Low to High" = "喝水杯數: 由低到高";
+"Loading the advertisement" = "廣告加載中";
+"No Reminder" = "沒有提醒";
+"Rate the App" = "給App評分";
+"Record" = "記錄";
+"Reminder" = "提醒";
+"Search a date" = "搜索日期";
+"See All" = "查看所有";
+"Settings" = "設置";
+"Share the App" = "分析App";
+"Sort By" = "排序";
+"Support the App" = "支持App";
+"Support this App" = "支持App";
+"Thanks for Your Support!" = "謝謝你的支持!";
+"Time to drink water" = "喝水時間到啦";
+"Water" = "水";
+"Water Tracker" = "喝水吧";
+"We will constantly optimize and maintain our App and make sure users have the best experience." = "為了用戶有更好的體驗，我們會持續更新和優化App.";
+"Yes" = "是的";
+"glasses" = "杯";
