@@ -6,6 +6,72 @@
   
 */
 
+/* More 相关 */
+"More" = "更多";
+
+"Yes" = "是的";
+"Cancel" = "取消";
+
+"Rate this App" = "给应用评分";
+
+"Share this App" = "分享这个应用";
+
+"Support this App" = "支持这个应用";
+"Do you want to watch an advertisement to support this App" = "看一个广告支持一下这个应用";
+"Loading the advertisement" = "广告载入中";
+"The Ads wasn't ready. Please try later." = "广告还没准备好，请稍后重试吧。";
+"Thanks for Your Support" = "谢谢你的支持";
+"We will constantly optimize and maintain our App and make sure users have the best experience" = "我们的团队会持续优化和维护此应用，希望给用户带来最好的体验";
+
+
+/* 更多 Apps*/
+"More Apps" = "更多应用";
+"Check out more Apps made by us" = "发现更多我们的 App";
+
+"All the Apps are available in both Mac and iOS App Store" = "所有应用在 Mac 和 iOS 应用商店均可下载";
+
+"Finance Go" = "美股财报通";
+"Financial Reports & Investing" = "专注财经资讯与价值投资";
+
+"Countdown Days" = "日期倒计时";
+"Events, Anniversary & Big Days" = "记录纪念日和重要日子的工具";
+
+"Money Tracker" = "极简记账";
+"Budget, Expense & Bill Planner" = "预算管理&存钱计划专家";
+
+"Ratios Go" = "财务比率计算器";
+"Financial Ratios Go" = "财务比率计算器";
+"Finance, Ratios, Investing" = "金融, 比率计算, 投资";
+
+"BMI Diary" = "BMI 日记";
+"Fitness, Weight Loss &Health" = "极简健康减肥健身BMI记录工具";
+
+"Novels Hub" = "英文小说站";
+"Fiction eBooks Library!" = "必读英文电子书合集";
+
+/* 反馈 */
+"Feedback" = "反馈";
+
+"WeChat Official Account" = "微信公众号";
+"Send a message to Apps Bay official account" = "在 Apps Bay 的微信公众号里留言";
+"Send a message to WeChat official account" = "微信公众号留言";
+"Please search \"Apps Bay\" in WeChat official account. Then leave a message after following the account. Thanks!" = "请在微信中搜索\"Apps Bay\"公众号，关注后即可留言反馈，谢谢！";
+
+"Facebook Page" = "Facebook Page";
+"Send a message to Apps Bay Facebook page" = "在 Apps Bay 的 Facebook page 留言";
+
+"Email" = "电子邮件";
+"Write an email to appsbay@qq.com" = "给 appsbay@qq.com 发电子邮件";
+"Write an email to appsbayarea@gmail.com" = "给 appsbayarea@gmail.com 发电子邮件";
+"Thanks for Your Feedback" = "谢谢您的反馈";
+
+/* App 专用 */
+"Add" = "添加";
+"Edit" = "编辑";
+"The reminder exists. No need to add again." = "这个提醒时间已存在，无需重复添加啦。";
+"Add a reminder" = "添加一个提醒时间";
+"Edit a reminder" = "编辑一个提醒时间";
+"Water Record" = "喝水记录";
 "After 1 hour" = "1小时后";
 "After 2 hours" = "2小时后";
 "After 3 hours" = "3小时后";
@@ -31,7 +97,7 @@
 "Search a date" = "搜索日期";
 "See All" = "查看所有";
 "Settings" = "设置";
-"Share the App" = "分析App";
+"Share the App" = "分享App";
 "Sort By" = "排序";
 "Support the App" = "支持App";
 "Support this App" = "支持App";

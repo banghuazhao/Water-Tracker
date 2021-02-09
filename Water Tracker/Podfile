@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '13.0'
+# platform :ios, '12.0'
 
 target 'Water Tracker' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -10,11 +10,32 @@ target 'Water Tracker' do
   pod 'Google-Mobile-Ads-SDK'
   pod 'SnapKit', '~> 5.0.0'
   pod 'Then'
-  pod 'SwiftDate', '~> 5.0'
+  pod 'SwiftDate'
   pod 'SVProgressHUD'
   pod "Sheeeeeeeeet"
   pod 'AAInfographics', :git => 'https://github.com/AAChartModel/AAChartKit-Swift.git'
+  pod 'DatePickerDialog'
+  pod 'Toast-Swift'
 
-  # Pods for Financial Statements Go
+end
 
+post_install do |installer|
+
+    installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings.delete 'IPHONEOS_DEPLOYMENT_TARGET'
+      end
+    end
+
+    installer.pods_project.targets.each do |target|
+        if target.name.start_with?("Pods")
+            puts "Updating #{target.name} OTHER_LDFLAGS to OTHER_LDFLAGS[sdk=iphone*]"
+            target.build_configurations.each do |config|
+                xcconfig_path = config.base_configuration_reference.real_path
+                xcconfig = File.read(xcconfig_path)
+                new_xcconfig = xcconfig.sub('OTHER_LDFLAGS =', 'OTHER_LDFLAGS[sdk=iphone*] =')
+                File.open(xcconfig_path, "w") { |file| file << new_xcconfig }
+            end
+        end
+    end
 end

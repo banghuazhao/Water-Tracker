@@ -6,9 +6,71 @@
   
 */
 
-"After 1 hour" = "1小時後";
-"After 2 hours" = "2小時後";
-"After 3 hours" = "3小時後";
+/* More 相關 */
+"More" = "更多";
+
+"Yes" = "是的";
+"Cancel" = "取消";
+
+"Rate this App" = "給應用評分";
+
+"Share this App" = "分享這個應用";
+
+"Support this App" = "支持這個應用";
+"Do you want to watch an advertisement to support this App" = "看一個廣告支持一下這個應用";
+"Loading the advertisement" = "廣告載入中";
+"The Ads wasn't ready. Please try later." = "喝水記錄廣告還沒準備好，請稍後重試吧。";
+"Thanks for Your Support" = "謝謝你的支持";
+"We will constantly optimize and maintain our App and make sure users have the best experience" = "我們的團隊會持續優化和維護此應用，希望給用戶帶來最好的體驗";
+
+/* 更多 Apps*/
+"More Apps" = "更多應用";
+"Check out more Apps made by us" = "發現更多我們的 App";
+
+"All the Apps are available in both Mac and iOS App Store" = "所有應用在 Mac 和 iOS 應用商店均可下載";
+
+"Finance Go" = "美股財報通";
+"Financial Reports & Investing" = "專注財經資訊與價值投資";
+
+"Countdown Days" = "日期倒計時";
+"Events, Anniversary & Big Days" = "記錄紀念日和重要日子的工具";
+
+"Money Tracker" = "極簡記賬";
+"Budget, Expense & Bill Planner" = "預算管理&存錢計劃專家";
+
+"Ratios Go" = "財務比率計算器";
+"Financial Ratios Go" = "財務比率計算器";
+"Finance, Ratios, Investing" = "金融, 比率計算, 投資";
+
+"BMI Diary" = "BMI 日記";
+"Fitness, Weight Loss &Health" = "極簡健康減肥健身BMI記錄工具";
+
+"Novels Hub" = "英文小說站";
+"Fiction eBooks Library!" = "必讀英文電子書合集";
+
+/* 反饋 */
+"Feedback" = "反饋";
+
+"WeChat Official Account" = "微信公眾號";
+"Send a message to Apps Bay official account" = "在 Apps Bay 的微信公眾號裡留言";
+"Send a message to WeChat official account" = "微信公眾號留言";
+"Please search \"Apps Bay\" in WeChat official account. Then leave a message after following the account. Thanks!" = "請在微信中搜索\"Apps Bay\"公眾號，關注後即可留言反饋，謝謝！";
+
+"Facebook Page" = "Facebook Page";
+"Send a message to Apps Bay Facebook page" = "在 Apps Bay 的 Facebook page 留言";
+
+"Email" = "電子郵件";
+"Write an email to appsbay@qq.com" = "给 appsbay@qq.com 發電子郵件";
+"Write an email to appsbayarea@gmail.com" = "給 appsbayarea@gmail.com 發電子郵件";
+"Thanks for Your Feedback" = "謝謝您的反饋";
+
+/* App 專用 */
+"Add" = "添加";
+"Edit" = "編輯";
+"The reminder exists. No need to add again." = "這個提醒時間已存在，無需重複添加啦。";
+"Add a reminder" = "添加一個提醒時間";
+"Edit a reminder" = "編輯一個提醒時間";
+"Water Record" = "喝水記錄";
 "Cancel" = "取消";
 "Choose the next drink water reminder" = "選擇下一個喝水提醒";
 "Daily Goal" = "每日目標";
@@ -31,7 +93,7 @@
 "Search a date" = "搜索日期";
 "See All" = "查看所有";
 "Settings" = "設置";
-"Share the App" = "分析App";
+"Share the App" = "分享App";
 "Sort By" = "排序";
 "Support the App" = "支持App";
 "Support this App" = "支持App";

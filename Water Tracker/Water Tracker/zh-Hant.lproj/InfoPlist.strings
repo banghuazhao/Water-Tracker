@@ -7,3 +7,4 @@
 */
 
 "CFBundleDisplayName" = "喝水吧";
+"NSUserTrackingUsageDescription" = "該標識符將用於向您投放個性化廣告。";

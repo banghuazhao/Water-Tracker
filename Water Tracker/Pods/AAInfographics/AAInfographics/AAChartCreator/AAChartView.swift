@@ -37,6 +37,7 @@ let kUserContentMessageNameMouseOver = "mouseover"
 
 @objc public protocol AAChartViewDelegate: NSObjectProtocol {
     @objc optional func aaChartViewDidFinishLoad (_ aaChartView: AAChartView)
+    @objc optional func aaChartViewDidFinishEvaluate (_ aaChartView: AAChartView)
     @objc optional func aaChartView(_ aaChartView: AAChartView, moveOverEventMessage: AAMoveOverEventMessageModel)
 }
 
@@ -178,6 +179,8 @@ public class AAChartView: WKWebView {
                 print(errorInfo)
             }
             #endif
+
+            self.delegate?.aaChartViewDidFinishEvaluate?(self)
         })
     }
     
@@ -224,8 +227,8 @@ extension AAChartView {
     ///
     /// - Parameter aaChartModel: The instance object of AAChartModel
     public func aa_drawChartWithChartModel(_ aaChartModel: AAChartModel) {
-        let options = AAOptionsConstructor.configureChartOptions(aaChartModel)
-        aa_drawChartWithChartOptions(options)
+        let aaOptions = aaChartModel.aa_toAAOptions()
+        aa_drawChartWithChartOptions(aaOptions)
     }
     
     /// Function of only refresh the chart data after the chart has been rendered
@@ -247,7 +250,7 @@ extension AAChartView {
     ///
     /// - Parameter aaChartModel: The instance object of AAChartModel
     public func aa_refreshChartWholeContentWithChartModel(_ aaChartModel: AAChartModel) {
-        let aaOptions = AAOptionsConstructor.configureChartOptions(aaChartModel)
+        let aaOptions = aaChartModel.aa_toAAOptions()
         aa_refreshChartWholeContentWithChartOptions(aaOptions)
     }
     
@@ -258,7 +261,7 @@ extension AAChartView {
     public func aa_drawChartWithChartOptions(_ aaOptions: AAOptions) {
         if optionsJson == nil {
             configureOptionsJsonStringWithAAOptions(aaOptions)
-            let path = Bundle(for: self.classForCoder)
+            let path = BundlePathLoader()
                 .path(forResource: "AAChartView",
                       ofType: "html",
                       inDirectory: "AAJSFiles.bundle")

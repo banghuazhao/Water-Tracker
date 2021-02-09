@@ -7,9 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		573F929AF1245B3A65582A00 /* Pods_Water_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3457632E6186FEF45482271A /* Pods_Water_Tracker.framework */; };
+		0CE7C8740EEFA13F5080B269 /* Pods_Water_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A269B46BC2F29DCD745B32 /* Pods_Water_Tracker.framework */; };
+		99092EF825C6A7C400ABFFD2 /* InterstitialAdsRequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092EF725C6A7C400ABFFD2 /* InterstitialAdsRequestHelper.swift */; };
+		99092EFB25C6A7D000ABFFD2 /* Ads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092EFA25C6A7D000ABFFD2 /* Ads.swift */; };
+		99092F1125C6ABB200ABFFD2 /* ReminderTimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092F1025C6ABB200ABFFD2 /* ReminderTimeCell.swift */; };
+		99092F1525C6AC0F00ABFFD2 /* ReminderTimeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092F1425C6AC0F00ABFFD2 /* ReminderTimeStore.swift */; };
+		99092F1825C6AF1A00ABFFD2 /* ReminderAddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092F1725C6AF1A00ABFFD2 /* ReminderAddCell.swift */; };
+		99092F3525C6E81100ABFFD2 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092F3425C6E81100ABFFD2 /* UIViewController+Extension.swift */; };
+		99092F4125C6EA8400ABFFD2 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092F4025C6EA8400ABFFD2 /* Date+Extension.swift */; };
+		99092F4525C6F37800ABFFD2 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092F4425C6F37800ABFFD2 /* Array+Extension.swift */; };
+		99092F4825C6F54600ABFFD2 /* ReminderTime+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092F4725C6F54600ABFFD2 /* ReminderTime+Extension.swift */; };
+		99092F7525C83BA100ABFFD2 /* UserNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092F7425C83BA100ABFFD2 /* UserNotificationManager.swift */; };
+		99092F7925C8478800ABFFD2 /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092F7825C8478800ABFFD2 /* UIAlertController+Extension.swift */; };
+		99092F7C25C8479000ABFFD2 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092F7B25C8479000ABFFD2 /* DatePickerViewController.swift */; };
+		99092FB725CD4A0F00ABFFD2 /* DrankRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092FB625CD4A0E00ABFFD2 /* DrankRecord.swift */; };
+		99092FBE25CD571800ABFFD2 /* WaterRecordDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092FBD25CD571800ABFFD2 /* WaterRecordDetailViewController.swift */; };
+		99092FD725CD70FF00ABFFD2 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092FCB25CD70C200ABFFD2 /* MoreViewController.swift */; };
+		99092FD825CD70FF00ABFFD2 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092FCC25CD70C200ABFFD2 /* FeedbackViewController.swift */; };
+		99092FD925CD70FF00ABFFD2 /* MoreAppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092FCD25CD70C200ABFFD2 /* MoreAppsViewController.swift */; };
+		99092FDB25CD710200ABFFD2 /* AppItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092FD025CD70C200ABFFD2 /* AppItem.swift */; };
+		99092FDC25CD710200ABFFD2 /* MoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092FCF25CD70C200ABFFD2 /* MoreItem.swift */; };
+		99092FDD25CD710200ABFFD2 /* FeedbackItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092FD125CD70C200ABFFD2 /* FeedbackItem.swift */; };
+		99092FDF25CD710500ABFFD2 /* MoreAppsHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092FD325CD70C200ABFFD2 /* MoreAppsHeaderCell.swift */; };
+		99092FE025CD710500ABFFD2 /* FeedbackItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092FD525CD70C200ABFFD2 /* FeedbackItemCell.swift */; };
+		99092FE125CD710500ABFFD2 /* AppItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092FD625CD70C200ABFFD2 /* AppItemCell.swift */; };
+		99092FE225CD710500ABFFD2 /* MoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092FD425CD70C200ABFFD2 /* MoreCell.swift */; };
+		99092FE525CD72E100ABFFD2 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092FE425CD72E100ABFFD2 /* UIFont+Extension.swift */; };
+		99092FE825CD741800ABFFD2 /* DrankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930C07A252EB4520035365F /* DrankCell.swift */; };
 		9930C000252DFE010035365F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930BFFF252DFE010035365F /* AppDelegate.swift */; };
-		9930C002252DFE010035365F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930C001252DFE010035365F /* SceneDelegate.swift */; };
 		9930C004252DFE010035365F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930C003252DFE010035365F /* HomeViewController.swift */; };
 		9930C009252DFE030035365F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9930C008252DFE030035365F /* Assets.xcassets */; };
 		9930C00C252DFE030035365F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9930C00A252DFE030035365F /* LaunchScreen.storyboard */; };
@@ -18,16 +43,12 @@
 		9930C033252E00F70035365F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9930C035252E00F70035365F /* Localizable.strings */; };
 		9930C053252E08170035365F /* StoreReviewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930C026252DFF240035365F /* StoreReviewHelper.swift */; };
 		9930C055252E081E0035365F /* UIButtonLargerArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930C024252DFF240035365F /* UIButtonLargerArea.swift */; };
-		9930C056252E081E0035365F /* Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930C022252DFF240035365F /* Other.swift */; };
-		9930C057252E081E0035365F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930C025252DFF240035365F /* Color.swift */; };
+		9930C057252E081E0035365F /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930C025252DFF240035365F /* UIColor+Extension.swift */; };
 		9930C058252E081E0035365F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930C029252DFF240035365F /* Constants.swift */; };
 		9930C059252E081E0035365F /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930C028252DFF240035365F /* MyNavigationController.swift */; };
-		9930C05A252E081E0035365F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930C027252DFF240035365F /* Extension.swift */; };
 		9930C05B252E081E0035365F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930C023252DFF240035365F /* CoreDataManager.swift */; };
-		9930C060252E09610035365F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930C05F252E09610035365F /* MenuViewController.swift */; };
 		9930C062252E09970035365F /* MyMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930C05D252E09550035365F /* MyMenuItem.swift */; };
 		9930C064252E09990035365F /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930C05E252E095D0035365F /* MenuCell.swift */; };
-		9930C07B252EB4520035365F /* DrankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930C07A252EB4520035365F /* DrankCell.swift */; };
 		9930C07F252EB51A0035365F /* CupsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930C07E252EB51A0035365F /* CupsCell.swift */; };
 		9930C084252EB53B0035365F /* ReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930C083252EB53B0035365F /* ReminderCell.swift */; };
 		9930C088252EB54D0035365F /* RecordTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930C087252EB54D0035365F /* RecordTitleCell.swift */; };
@@ -41,21 +62,44 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3457632E6186FEF45482271A /* Pods_Water_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Water_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4758200093A93D4E14F7EE90 /* Pods-Water Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Water Tracker.release.xcconfig"; path = "Target Support Files/Pods-Water Tracker/Pods-Water Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		14A269B46BC2F29DCD745B32 /* Pods_Water_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Water_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2EF7A0223B99D65772352C /* Pods-Water Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Water Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Water Tracker/Pods-Water Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		99092EF725C6A7C400ABFFD2 /* InterstitialAdsRequestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialAdsRequestHelper.swift; sourceTree = "<group>"; };
+		99092EFA25C6A7D000ABFFD2 /* Ads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ads.swift; sourceTree = "<group>"; };
+		99092F1025C6ABB200ABFFD2 /* ReminderTimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReminderTimeCell.swift; path = ../Model/ReminderTimeCell.swift; sourceTree = "<group>"; };
+		99092F1425C6AC0F00ABFFD2 /* ReminderTimeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTimeStore.swift; sourceTree = "<group>"; };
+		99092F1725C6AF1A00ABFFD2 /* ReminderAddCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderAddCell.swift; sourceTree = "<group>"; };
+		99092F3425C6E81100ABFFD2 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		99092F4025C6EA8400ABFFD2 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		99092F4425C6F37800ABFFD2 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		99092F4725C6F54600ABFFD2 /* ReminderTime+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderTime+Extension.swift"; sourceTree = "<group>"; };
+		99092F7425C83BA100ABFFD2 /* UserNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationManager.swift; sourceTree = "<group>"; };
+		99092F7825C8478800ABFFD2 /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
+		99092F7B25C8479000ABFFD2 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		99092FB625CD4A0E00ABFFD2 /* DrankRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrankRecord.swift; sourceTree = "<group>"; };
+		99092FBD25CD571800ABFFD2 /* WaterRecordDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterRecordDetailViewController.swift; sourceTree = "<group>"; };
+		99092FC025CD6E5400ABFFD2 /* Water Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Water Tracker.entitlements"; sourceTree = "<group>"; };
+		99092FCB25CD70C200ABFFD2 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		99092FCC25CD70C200ABFFD2 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		99092FCD25CD70C200ABFFD2 /* MoreAppsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreAppsViewController.swift; sourceTree = "<group>"; };
+		99092FCF25CD70C200ABFFD2 /* MoreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreItem.swift; sourceTree = "<group>"; };
+		99092FD025CD70C200ABFFD2 /* AppItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppItem.swift; sourceTree = "<group>"; };
+		99092FD125CD70C200ABFFD2 /* FeedbackItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackItem.swift; sourceTree = "<group>"; };
+		99092FD325CD70C200ABFFD2 /* MoreAppsHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreAppsHeaderCell.swift; sourceTree = "<group>"; };
+		99092FD425CD70C200ABFFD2 /* MoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreCell.swift; sourceTree = "<group>"; };
+		99092FD525CD70C200ABFFD2 /* FeedbackItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackItemCell.swift; sourceTree = "<group>"; };
+		99092FD625CD70C200ABFFD2 /* AppItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppItemCell.swift; sourceTree = "<group>"; };
+		99092FE425CD72E100ABFFD2 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		9930BFFC252DFE010035365F /* Water Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Water Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9930BFFF252DFE010035365F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9930C001252DFE010035365F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9930C003252DFE010035365F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9930C008252DFE030035365F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9930C00B252DFE030035365F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9930C00D252DFE030035365F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9930C022252DFF240035365F /* Other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Other.swift; sourceTree = "<group>"; };
 		9930C023252DFF240035365F /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		9930C024252DFF240035365F /* UIButtonLargerArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonLargerArea.swift; sourceTree = "<group>"; };
-		9930C025252DFF240035365F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		9930C025252DFF240035365F /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		9930C026252DFF240035365F /* StoreReviewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreReviewHelper.swift; sourceTree = "<group>"; };
-		9930C027252DFF240035365F /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		9930C028252DFF240035365F /* MyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
 		9930C029252DFF240035365F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9930C02B252DFF470035365F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
@@ -67,7 +111,6 @@
 		9930C051252E07480035365F /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		9930C05D252E09550035365F /* MyMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMenuItem.swift; sourceTree = "<group>"; };
 		9930C05E252E095D0035365F /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
-		9930C05F252E09610035365F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		9930C07A252EB4520035365F /* DrankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrankCell.swift; sourceTree = "<group>"; };
 		9930C07E252EB51A0035365F /* CupsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupsCell.swift; sourceTree = "<group>"; };
 		9930C083252EB53B0035365F /* ReminderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCell.swift; sourceTree = "<group>"; };
@@ -75,11 +118,11 @@
 		9930C08B252EB57B0035365F /* RecordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCell.swift; sourceTree = "<group>"; };
 		9930C090252EBFD50035365F /* WaterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCell.swift; sourceTree = "<group>"; };
 		9930C095252EC0250035365F /* WaterProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterProgressView.swift; sourceTree = "<group>"; };
+		99656C78F03234608C54E55B /* Pods-Water Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Water Tracker.release.xcconfig"; path = "Target Support Files/Pods-Water Tracker/Pods-Water Tracker.release.xcconfig"; sourceTree = "<group>"; };
 		99F64031252F600C00A99562 /* UserWaterRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserWaterRecord.swift; sourceTree = "<group>"; };
 		99F640422530AEE800A99562 /* WaterRecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterRecordsViewController.swift; sourceTree = "<group>"; };
 		99F640482531FA3A00A99562 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		99F6404F2531FCC500A99562 /* DrinkWater.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DrinkWater.mp3; sourceTree = "<group>"; };
-		D11E9449ABE9B770D459E16F /* Pods-Water Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Water Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Water Tracker/Pods-Water Tracker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,20 +130,103 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				573F929AF1245B3A65582A00 /* Pods_Water_Tracker.framework in Frameworks */,
+				0CE7C8740EEFA13F5080B269 /* Pods_Water_Tracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B54FD17E1B3744FE03C00D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14A269B46BC2F29DCD745B32 /* Pods_Water_Tracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8A573083E275BF92BAF4149F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D11E9449ABE9B770D459E16F /* Pods-Water Tracker.debug.xcconfig */,
-				4758200093A93D4E14F7EE90 /* Pods-Water Tracker.release.xcconfig */,
+				5A2EF7A0223B99D65772352C /* Pods-Water Tracker.debug.xcconfig */,
+				99656C78F03234608C54E55B /* Pods-Water Tracker.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		99092F2D25C6E5D500ABFFD2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				99092FE425CD72E100ABFFD2 /* UIFont+Extension.swift */,
+				99092F4025C6EA8400ABFFD2 /* Date+Extension.swift */,
+				99092F4425C6F37800ABFFD2 /* Array+Extension.swift */,
+				9930C025252DFF240035365F /* UIColor+Extension.swift */,
+				99092F3425C6E81100ABFFD2 /* UIViewController+Extension.swift */,
+				99092F4725C6F54600ABFFD2 /* ReminderTime+Extension.swift */,
+				99092F7825C8478800ABFFD2 /* UIAlertController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		99092F2E25C6E5DA00ABFFD2 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				9930C028252DFF240035365F /* MyNavigationController.swift */,
+				9930C024252DFF240035365F /* UIButtonLargerArea.swift */,
+				99092F7B25C8479000ABFFD2 /* DatePickerViewController.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		99092FC625CD703D00ABFFD2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9930C014252DFE090035365F /* Model */,
+				9930C019252DFE480035365F /* View */,
+				9930C01A252DFE570035365F /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		99092FC925CD70C200ABFFD2 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				99092FCE25CD70C200ABFFD2 /* Model */,
+				99092FD225CD70C200ABFFD2 /* View */,
+				99092FCA25CD70C200ABFFD2 /* Controller */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		99092FCA25CD70C200ABFFD2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99092FCB25CD70C200ABFFD2 /* MoreViewController.swift */,
+				99092FCC25CD70C200ABFFD2 /* FeedbackViewController.swift */,
+				99092FCD25CD70C200ABFFD2 /* MoreAppsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99092FCE25CD70C200ABFFD2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99092FCF25CD70C200ABFFD2 /* MoreItem.swift */,
+				99092FD025CD70C200ABFFD2 /* AppItem.swift */,
+				99092FD125CD70C200ABFFD2 /* FeedbackItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99092FD225CD70C200ABFFD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99092FD325CD70C200ABFFD2 /* MoreAppsHeaderCell.swift */,
+				99092FD425CD70C200ABFFD2 /* MoreCell.swift */,
+				99092FD525CD70C200ABFFD2 /* FeedbackItemCell.swift */,
+				99092FD625CD70C200ABFFD2 /* AppItemCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		9930BFF3252DFE010035365F = {
@@ -109,7 +235,7 @@
 				9930BFFE252DFE010035365F /* Water Tracker */,
 				9930BFFD252DFE010035365F /* Products */,
 				8A573083E275BF92BAF4149F /* Pods */,
-				DD6C3C8F4A9C6308E5D5689B /* Frameworks */,
+				6B54FD17E1B3744FE03C00D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,12 +250,11 @@
 		9930BFFE252DFE010035365F /* Water Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				99092FC025CD6E5400ABFFD2 /* Water Tracker.entitlements */,
 				9930BFFF252DFE010035365F /* AppDelegate.swift */,
-				9930C001252DFE010035365F /* SceneDelegate.swift */,
 				9930C018252DFE110035365F /* Utiilties */,
-				9930C014252DFE090035365F /* Model */,
-				9930C019252DFE480035365F /* View */,
-				9930C01A252DFE570035365F /* Controller */,
+				99092FC625CD703D00ABFFD2 /* Home */,
+				99092FC925CD70C200ABFFD2 /* More */,
 				9930C008252DFE030035365F /* Assets.xcassets */,
 				9930C00A252DFE030035365F /* LaunchScreen.storyboard */,
 				9930C00D252DFE030035365F /* Info.plist */,
@@ -144,7 +269,9 @@
 			isa = PBXGroup;
 			children = (
 				9930C05D252E09550035365F /* MyMenuItem.swift */,
+				99092FB625CD4A0E00ABFFD2 /* DrankRecord.swift */,
 				99F64031252F600C00A99562 /* UserWaterRecord.swift */,
+				99092F1425C6AC0F00ABFFD2 /* ReminderTimeStore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -154,14 +281,14 @@
 			children = (
 				99F6404F2531FCC500A99562 /* DrinkWater.mp3 */,
 				99F640482531FA3A00A99562 /* Music.swift */,
-				9930C025252DFF240035365F /* Color.swift */,
 				9930C029252DFF240035365F /* Constants.swift */,
+				99092EFA25C6A7D000ABFFD2 /* Ads.swift */,
 				9930C023252DFF240035365F /* CoreDataManager.swift */,
-				9930C027252DFF240035365F /* Extension.swift */,
-				9930C028252DFF240035365F /* MyNavigationController.swift */,
 				9930C026252DFF240035365F /* StoreReviewHelper.swift */,
-				9930C024252DFF240035365F /* UIButtonLargerArea.swift */,
-				9930C022252DFF240035365F /* Other.swift */,
+				99092EF725C6A7C400ABFFD2 /* InterstitialAdsRequestHelper.swift */,
+				99092F7425C83BA100ABFFD2 /* UserNotificationManager.swift */,
+				99092F2D25C6E5D500ABFFD2 /* Extensions */,
+				99092F2E25C6E5DA00ABFFD2 /* Class */,
 			);
 			path = Utiilties;
 			sourceTree = "<group>";
@@ -174,6 +301,8 @@
 				9930C090252EBFD50035365F /* WaterCell.swift */,
 				9930C095252EC0250035365F /* WaterProgressView.swift */,
 				9930C083252EB53B0035365F /* ReminderCell.swift */,
+				99092F1025C6ABB200ABFFD2 /* ReminderTimeCell.swift */,
+				99092F1725C6AF1A00ABFFD2 /* ReminderAddCell.swift */,
 				9930C087252EB54D0035365F /* RecordTitleCell.swift */,
 				9930C08B252EB57B0035365F /* RecordCell.swift */,
 				9930C05E252E095D0035365F /* MenuCell.swift */,
@@ -185,18 +314,10 @@
 			isa = PBXGroup;
 			children = (
 				9930C003252DFE010035365F /* HomeViewController.swift */,
-				9930C05F252E09610035365F /* MenuViewController.swift */,
 				99F640422530AEE800A99562 /* WaterRecordsViewController.swift */,
+				99092FBD25CD571800ABFFD2 /* WaterRecordDetailViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		DD6C3C8F4A9C6308E5D5689B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3457632E6186FEF45482271A /* Pods_Water_Tracker.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,11 +327,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9930C010252DFE030035365F /* Build configuration list for PBXNativeTarget "Water Tracker" */;
 			buildPhases = (
-				1016C7D9BCC4AA735F9A2D64 /* [CP] Check Pods Manifest.lock */,
+				686C613A91B4889E863A315F /* [CP] Check Pods Manifest.lock */,
 				9930BFF8252DFE010035365F /* Sources */,
 				9930BFF9252DFE010035365F /* Frameworks */,
 				9930BFFA252DFE010035365F /* Resources */,
-				51F1E0B37052227A413B1B54 /* [CP] Embed Pods Frameworks */,
+				51F1EE38B6990B5F88D523D5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -271,7 +392,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1016C7D9BCC4AA735F9A2D64 /* [CP] Check Pods Manifest.lock */ = {
+		51F1EE38B6990B5F88D523D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Water Tracker/Pods-Water Tracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Water Tracker/Pods-Water Tracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Water Tracker/Pods-Water Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		686C613A91B4889E863A315F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -293,23 +431,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		51F1E0B37052227A413B1B54 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Water Tracker/Pods-Water Tracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Water Tracker/Pods-Water Tracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Water Tracker/Pods-Water Tracker-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -319,28 +440,49 @@
 			files = (
 				9930C004252DFE010035365F /* HomeViewController.swift in Sources */,
 				9930C000252DFE010035365F /* AppDelegate.swift in Sources */,
+				99092EF825C6A7C400ABFFD2 /* InterstitialAdsRequestHelper.swift in Sources */,
+				99092FDF25CD710500ABFFD2 /* MoreAppsHeaderCell.swift in Sources */,
+				99092FE025CD710500ABFFD2 /* FeedbackItemCell.swift in Sources */,
+				99092F4825C6F54600ABFFD2 /* ReminderTime+Extension.swift in Sources */,
+				99092F1125C6ABB200ABFFD2 /* ReminderTimeCell.swift in Sources */,
+				99092F4125C6EA8400ABFFD2 /* Date+Extension.swift in Sources */,
+				99092FE825CD741800ABFFD2 /* DrankCell.swift in Sources */,
 				9930C053252E08170035365F /* StoreReviewHelper.swift in Sources */,
 				9930C059252E081E0035365F /* MyNavigationController.swift in Sources */,
-				9930C05A252E081E0035365F /* Extension.swift in Sources */,
 				9930C088252EB54D0035365F /* RecordTitleCell.swift in Sources */,
+				99092FD725CD70FF00ABFFD2 /* MoreViewController.swift in Sources */,
+				99092F4525C6F37800ABFFD2 /* Array+Extension.swift in Sources */,
+				99092F1825C6AF1A00ABFFD2 /* ReminderAddCell.swift in Sources */,
+				99092F3525C6E81100ABFFD2 /* UIViewController+Extension.swift in Sources */,
 				9930C08C252EB57B0035365F /* RecordCell.swift in Sources */,
 				99F64032252F600C00A99562 /* UserWaterRecord.swift in Sources */,
-				9930C002252DFE010035365F /* SceneDelegate.swift in Sources */,
+				99092EFB25C6A7D000ABFFD2 /* Ads.swift in Sources */,
+				99092F7C25C8479000ABFFD2 /* DatePickerViewController.swift in Sources */,
 				9930C05B252E081E0035365F /* CoreDataManager.swift in Sources */,
-				9930C060252E09610035365F /* MenuViewController.swift in Sources */,
 				9930C02C252DFF470035365F /* Model.xcdatamodeld in Sources */,
-				9930C057252E081E0035365F /* Color.swift in Sources */,
+				99092FB725CD4A0F00ABFFD2 /* DrankRecord.swift in Sources */,
+				9930C057252E081E0035365F /* UIColor+Extension.swift in Sources */,
+				99092F1525C6AC0F00ABFFD2 /* ReminderTimeStore.swift in Sources */,
 				9930C091252EBFD50035365F /* WaterCell.swift in Sources */,
 				9930C084252EB53B0035365F /* ReminderCell.swift in Sources */,
 				9930C07F252EB51A0035365F /* CupsCell.swift in Sources */,
-				9930C056252E081E0035365F /* Other.swift in Sources */,
 				99F640492531FA3A00A99562 /* Music.swift in Sources */,
+				99092FE525CD72E100ABFFD2 /* UIFont+Extension.swift in Sources */,
 				9930C064252E09990035365F /* MenuCell.swift in Sources */,
+				99092FDC25CD710200ABFFD2 /* MoreItem.swift in Sources */,
+				99092FD825CD70FF00ABFFD2 /* FeedbackViewController.swift in Sources */,
 				9930C096252EC0250035365F /* WaterProgressView.swift in Sources */,
+				99092FD925CD70FF00ABFFD2 /* MoreAppsViewController.swift in Sources */,
+				99092FDB25CD710200ABFFD2 /* AppItem.swift in Sources */,
 				9930C055252E081E0035365F /* UIButtonLargerArea.swift in Sources */,
+				99092FE225CD710500ABFFD2 /* MoreCell.swift in Sources */,
 				9930C058252E081E0035365F /* Constants.swift in Sources */,
-				9930C07B252EB4520035365F /* DrankCell.swift in Sources */,
+				99092F7925C8478800ABFFD2 /* UIAlertController+Extension.swift in Sources */,
+				99092FBE25CD571800ABFFD2 /* WaterRecordDetailViewController.swift in Sources */,
+				99092F7525C83BA100ABFFD2 /* UserNotificationManager.swift in Sources */,
+				99092FE125CD710500ABFFD2 /* AppItemCell.swift in Sources */,
 				99F640432530AEE800A99562 /* WaterRecordsViewController.swift in Sources */,
+				99092FDD25CD710200ABFFD2 /* FeedbackItem.swift in Sources */,
 				9930C062252E09970035365F /* MyMenuItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,12 +641,13 @@
 		};
 		9930C011252DFE030035365F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D11E9449ABE9B770D459E16F /* Pods-Water Tracker.debug.xcconfig */;
+			baseConfigurationReference = 5A2EF7A0223B99D65772352C /* Pods-Water Tracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Water Tracker/Water Tracker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.0;
+				CURRENT_PROJECT_VERSION = 1.1.0;
 				DEVELOPMENT_TEAM = E6968P466E;
 				INFOPLIST_FILE = "Water Tracker/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -512,9 +655,87 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
+				"OTHER_LDFLAGS[sdk=iphone*]" = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AAInfographics\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleMobileAds\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"Hue\"",
+					"-framework",
+					"\"Localize_Swift\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"Sheeeeeeeeet\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SwiftDate\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"Then\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UserMessagingPlatform\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"nanopb\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"SafariServices\"",
+					"-weak_framework",
+					"\"WebKit\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Banghua-Zhao.Water-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -522,12 +743,13 @@
 		};
 		9930C012252DFE030035365F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4758200093A93D4E14F7EE90 /* Pods-Water Tracker.release.xcconfig */;
+			baseConfigurationReference = 99656C78F03234608C54E55B /* Pods-Water Tracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Water Tracker/Water Tracker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.0;
+				CURRENT_PROJECT_VERSION = 1.1.0;
 				DEVELOPMENT_TEAM = E6968P466E;
 				INFOPLIST_FILE = "Water Tracker/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -535,9 +757,87 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
+				"OTHER_LDFLAGS[sdk=iphone*]" = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AAInfographics\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleMobileAds\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"Hue\"",
+					"-framework",
+					"\"Localize_Swift\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"Sheeeeeeeeet\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SwiftDate\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"Then\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UserMessagingPlatform\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"nanopb\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"SafariServices\"",
+					"-weak_framework",
+					"\"WebKit\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Banghua-Zhao.Water-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

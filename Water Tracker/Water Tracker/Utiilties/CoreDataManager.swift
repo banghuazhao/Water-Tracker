@@ -34,6 +34,19 @@ struct CoreDataManager {
             return []
         }
     }
+    
+    func fetchLocalReminderTimes() -> [ReminderTime] {
+        let context = persistentContainer.viewContext
+
+        let fetchRequest = NSFetchRequest<ReminderTime>(entityName: "ReminderTime")
+        do {
+            let items = try context.fetch(fetchRequest)
+            return items
+        } catch let fetchErr {
+            print("Failed to fetch User ReminderTime:", fetchErr)
+            return []
+        }
+    }
 
     func findTodayWaterRecord() -> WaterRecord? {
         let waterRecords = CoreDataManager.shared.fetchLocalWaterRecords()

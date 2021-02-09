@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19G2021" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ReminderTime" representedClassName="ReminderTime" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="time" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
     <entity name="WaterRecord" representedClassName="WaterRecord" syncable="YES" codeGenerationType="class">
         <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="glass0" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="glass0Date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="glass1" optional="YES" attributeType="Boolean" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="glass1Date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="glass2" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="glass2Date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="glass3" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="glass3Date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="glass4" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="glass4Date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="glass5" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="glass5Date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="glass6" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="glass6Date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="glass7" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="glass7Date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
     </entity>
     <elements>
-        <element name="WaterRecord" positionX="-63" positionY="-18" width="128" height="178"/>
+        <element name="WaterRecord" positionX="-63" positionY="-18" width="128" height="284"/>
+        <element name="ReminderTime" positionX="-63" positionY="54" width="128" height="59"/>
     </elements>
 </model>
